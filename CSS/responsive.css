@@ -1,0 +1,92 @@
+@media (max-width: 1000px) {
+
+    header {
+        padding: 15px 30px;
+
+        .header-left{
+            width: 30%;
+            
+            img{
+                width: 80px;
+            }
+
+            h1{
+                font-size: 37px;
+            }
+
+            span{
+                font-size: 12px;
+            }
+        }
+
+        .search-con{
+            width: 50%;
+            input,button {
+                font-size: 20px;
+            }
+        }
+
+        .main-menu-btn{
+            display: block;
+            font-size: 40px;
+            padding: 10px;
+            border: none;
+            background: none;
+        }
+        .main-menu{
+            display: none;
+        }
+
+        .main-menu-dis{
+            padding: 30px;
+            width: 50%;
+            display: flex;
+
+            .profile-btn {
+                width: 100px;
+                height: 100px;
+            }
+
+            h3{
+                font-size: 50px;
+            }
+
+            em{
+                font-size: 19px;
+            }
+
+            li a,i,span {
+                font-size: 30px;
+            }
+
+            hr {
+                margin: 20px 0;
+            }
+
+            .mode-btn{
+                width: 70px;
+                height: 37px;
+
+                .circle{
+                    margin-left: 5px;
+                    width: 28px;
+                    height: 28px;
+                }
+            }
+        }
+    }
+
+    .home-main {
+        .s1_left {
+            width: 50%;
+
+            p em{
+                font-size: 48px;
+            }
+
+            strong {
+                font-size: 60px;
+            }
+        }
+    }
+}

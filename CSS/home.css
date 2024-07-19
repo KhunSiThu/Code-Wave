@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital,wght@0,100;0,300;0,400;0,500;0,700;0,800;0,900;1,100;1,300;1,400;1,500;1,700;1,800;1,900&family=Assistant:wght@200..800&family=Exo+2:ital,wght@0,100..900;1,100..900&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Karla:ital,wght@0,200..800;1,200..800&family=Merriweather+Sans:ital,wght@0,300..800;1,300..800&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Exo 2", sans-serif;
+    font-weight: 500;
+    scroll-behavior: smooth; 
+}
+
+body 
+{
+    background-color: #F6F5F2;
+    
+}
+
+i{
+    cursor: pointer;
+}
+
+main {
+    width: 100%;
+    padding: 30px;
+}
+
+
+/* Section 1 */
+
+.s1 {
+    border-radius: 8px;
+    border: 1px solid #7271714b;
+    padding: 30px;
+    
+}
+
+.s1-div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+
+    .s1-left {
+        width: 50%;
+        height: 400px;
+        overflow: hidden;
+
+        img { 
+            width: 100%;
+            height: 100%;
+        }
+    }
+
+    .s1-right{
+        width: 50%;
+        padding-left: 35px;
+
+        strong{
+            font-size: 65px;
+            color: #1392EF;
+        }
+
+        span{
+            font-size: 25px;
+            color: #55C4DA;
+            padding-left: 10px;
+        }
+
+        ul {
+            padding-top: 10px;
+            list-style: inside;
+        }
+
+        ul li{
+            line-height: 30px;
+            letter-spacing: 1px;
+        }
+
+        p{
+            line-height: 40px;
+            font-size: 20px;
+        }
+
+        p em {
+            color: #EB5562;
+            font-weight: bold;
+        }
+
+        div{
+            display: flex;
+            justify-content: center;
+        }
+
+        button {
+            display: block;
+            padding: 10px;
+            font-size: 18px;
+            margin-top: 30px;
+            border: none;
+            background-color: #1393ef94;
+            border-radius: 3px;
+            color: white;
+        }
+
+        button:hover {
+            transition: .3s;
+            background-color: #1392EF;
+        }
+    }
+}
+
+.ads {
+    width: 100%;
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    img {
+        width: 50px;
+        margin: 10px;
+    }
+
+    .adsSmImgChange{
+        transform: scale(1.3);
+    }
+}
+
+
+
+/* Section 2 */
+
+.s2{
+    width: 95%;
+    margin: 30px auto;
+    padding: 30px;
+    border-radius: 8px;
+    border: 1px solid #7271714b;
+    background-color: #EEEEEE;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    text-align: center;
+    box-shadow: 0px 16px 48px 0px rgba(0,0,0,0.176);
+
+    div {
+
+        width: 20%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        
+
+        img {
+            width: 70px;
+        }
+
+        section{
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: start;
+        }
+
+        h2:hover {
+            cursor: pointer;
+            color: #1392EF;
+            transition: .3s;
+        }
+    }
+}
+
+
+

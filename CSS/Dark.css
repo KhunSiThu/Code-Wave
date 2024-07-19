@@ -1,0 +1,39 @@
+.dark {
+    transition: .5s;
+
+    color: white;
+    background-color: black;
+
+    .bg-black2 
+    {
+        color: white;
+        background-color: black;
+    }
+
+    .bg-black
+    {
+        background-color: #0F0F0F;
+        color: white;
+    }
+
+    .wh-col
+    {
+        color: white;
+    }
+
+    /* Courses */
+    .cs2-left ul li {
+        background-color: #0F0F0F;
+    }
+
+    .cs2-right .course-box {
+        background-color: #0F0F0F;
+    }
+
+    /* Course Detail */
+
+    .cd-s1 .In_link i {
+        color: white;
+    }
+
+}
